@@ -31,6 +31,10 @@ function buscarLocaisProximos(esporte) {
 		window.open('https://www.google.com/maps/search/rugby+são+jose+do+rio+preto/@-20.8159734,-49.385687,14z/data=!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTAwNi4wIKXMDSoASAFQAw%3D%3D', '_blank');
 		return;
 	}
+	if (esporte === 'tenis_de_mesa') {
+		window.open('https://www.google.com/maps/place/NEW+PONG+-+Academia+de+T%C3%AAnis+de+Mesa/@-20.8611262,-49.3065275,11.88z/data=!4m6!3m5!1s0x94bdad45481f4781:0x98ac37500298741!8m2!3d-20.8381911!4d-49.3697763!16s%2Fg%2F11t7fqv2tb!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTAxMi4wIKXMDSoASAFQAw%3D%3D', '_blank');
+		return;
+	}
 	if (!navigator.geolocation) {
 		alert('Geolocalização não suportada pelo navegador.');
 		return;

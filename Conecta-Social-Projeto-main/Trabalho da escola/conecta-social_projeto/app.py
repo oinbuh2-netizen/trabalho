@@ -42,5 +42,9 @@ def futsal():
 def volei_de_areia():
     return render_template('volei_de_areia.html', page='volei_de_areia')
 
+@app.route('/tenis_de_mesa')
+def tenis_de_mesa():
+    return render_template('tenis_de_mesa.html', page='tenis_de_mesa')
+
 if __name__ == '__main__':
     app.run(debug=True)

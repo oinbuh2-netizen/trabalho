@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 {% block content %}
 <button id="toggle-dark-mode" class="aba-btn">🌙 Modo Escuro</button>
-<div class="aba-btn-area aba-btn-topo"><a href="/" class="aba-btn aba-btn-volei">🏠 Voltar para o Início</a></div>
+<div class="aba-btn-area aba-btn-topo"><a href="/" class="aba-btn aba-btn-volei_de_areia">🏠 Voltar para o Início</a></div>
 <div class="aba-btn-area"><button class="aba-btn aba-btn-localizacao" onclick="buscarLocaisProximos('volei_de_areia')">📍 Locais para jogar vôlei de areia perto de mim</button></div>
 <div id="resultado-localizacao-volei_de_areia" class="resultado-localizacao"></div>
+
 <h1>🏐 Vôlei de Areia</h1>
 <img src="{{ url_for('static', filename='volei_de_areia.jpg') }}" alt="Vôlei de Areia" class="img-esporte">
-
 <div style="text-align:left; max-width:700px; margin: 24px auto; background:rgba(255,255,255,0.85); padding:20px; border-radius:12px; color:#0a2342;">
 	<h3>Quando, onde e quem criou?</h3>
 	<p>O vôlei de areia surgiu oficialmente na Califórnia, EUA, em 1920, mas se popularizou mundialmente a partir da década de 1980. É uma variação do vôlei tradicional, adaptada para quadras de areia.</p>
